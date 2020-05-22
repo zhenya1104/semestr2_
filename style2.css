@@ -1,5 +1,4 @@
-div{
-  border:dashed 0px #0f0; padding 5px; margin: 0px 0px 5px 0px;}
+div{border:solid 3px pink; padding:5px; margin:5px;background-color:blue;}
 #b1{background-color:#999; width:100%; padding 0px; martin: 0px}
 #b2{background-color:#900; width:100%;}
 #b3{background-color:#090; width:20%; float:left;}
