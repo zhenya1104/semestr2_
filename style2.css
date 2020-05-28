@@ -4,7 +4,7 @@ div{border:solid 3px #f00;
   background-color: #00f;}
 #b1{background-color: #990;}
 #b2{background-color: #009;}
-#b3{background-color: #999;martin:5px;width:25%;float:left;}
-#b4{background-color: #999;martin:5px;width:50%;float:left;}
-#b5{background-color: #999;martin:5px;width:13%;float:left;}
+#b3{background-color: #999;margin:5px;width:25%;float:left;}
+#b4{background-color: #999;margin:5px;width:50%;float:left;}
+#b5{background-color: #999;margin:5px;width:13%;float:left;}
 #b6{background-color: #009;clear:both;}
