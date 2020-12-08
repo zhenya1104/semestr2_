@@ -1,0 +1,43 @@
+<!doctype html>
+<html> 
+<head> 
+<title>6. Создать список вариантов, с помощью которого можно выбрать либо цвет фона документа зеленый, либо увидеть диалоговое окно с приветствием, либо поменять цвет текста документа на синий, либо сменить , отображаемую на экране картинку.  Создайте обработку  любого события объекта document появлением строки «ПРИВЕТ,МИР» в многостроковом поле ввода информации некоторой формы данного документа.</title> 
+<script>
+ function f(x)
+ {document.getElementById('pic1').style.borderWidth=7 px; }
+
+ function g(x)
+ {document.getElementById('bb1').style.backgroundColor=x; }
+
+function h(x)
+ {document.getElementById('aa1').style.color="blue"; }
+
+ function k(x)
+ {document.getElementById('area1').value=x; }
+
+</script>  
+</head> 
+<body onload="alert('Поздравляем!!!')" id=”body1”>
+<body id="bb1">
+<p id="aa1">
+На событие "Загрузка документа" вызвать появление диалогового окна с сообщением "Поздравляем!!!"<br>
+На событие "Нажатие на кнопку формы" вызвать следующие действия: изменить отображаемую на экране картинку; изменить цвет текста на синий; изменить цвет фона на жёлтый.<br>
+Создать выпадающее меню, с помощью которого можно выбрать цвет фона документа (создайте четыре варианта цветов).<br> 
+Создайте обработку события наезда на картинку мышки появлением строки «ПРИВЕТ,МИР» в многостроковом поле ввода информации некоторой формы данного документа.
+</p>
+<p>
+<img src="завантаження.jpg" ALT ="картинка">
+</p>
+<form action="" method="get">
+<select name="sl1" id="bb1">
+<option value="значення1" onclick="g('red')" name="a" id="b1" > красный </option>
+<option value="значення2" onclick="g('black')" name="a" id="b2" > черный </option>
+<option value="значення3" onclick="g('pink')" name="a" id="b3"> розовый </option>
+<option value="значення4" onclick="g('blue')" name="a" id="b4" > синий </option>
+</select>
+<input type="button" onclick=f("Привет,мир!") value="Щелкните здесь">
+<textarea name=address rows=5 cols=50 id="area1"> 
+</textarea>
+</form> 
+</body> 
+</html> 
